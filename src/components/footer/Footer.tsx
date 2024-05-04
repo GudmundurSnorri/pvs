@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="w-screen h-full grid grid-cols-12 items-center">
       <div className="py-20 col-start-2 col-end-4">
         <Image
-          src="/images/logo.jpg"
+          src="https://images.ctfassets.net/ch7ua35viv8m/17yEYjBGXbyKdDOCwcjG9g/67050681413177bb0d74f75039203e6c/logo.jpg"
           width={400}
           height={300}
           alt="Prentverk Selfoss logo"
