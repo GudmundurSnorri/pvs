@@ -5,7 +5,9 @@ const HeroSection = () => {
     <div className="relative z-10 grid min-h-screen w-full bg-white">
       <div className="absolute min-h-screen w-full">
         <Image
-          src={"/images/stacked-waves-haikei.svg"}
+          src={
+            "https://images.ctfassets.net/ch7ua35viv8m/2rkkT10o6onJC4A1HKZueD/601a90617517e4927b01c4722cf858dd/stacked-waves-haikei.svg"
+          }
           alt={""}
           width={1920}
           height={1000}
@@ -31,7 +33,9 @@ const HeroSection = () => {
 
         <div className="relative col-start-8 col-end-12 flex items-center">
           <Image
-            src={"/images/BigPic2.jpg"}
+            src={
+              "https://images.ctfassets.net/ch7ua35viv8m/2SO5v6kROGOuh75RnpsS01/21d5be1eafffe14b8b89f2c16fa52572/BigPic2.jpg"
+            }
             alt={""}
             width={600}
             height={1000}

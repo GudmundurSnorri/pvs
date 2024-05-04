@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="relative col-start-1 col-end-4">
         <div className="flex justify-center rounded-3xl  overflow-hidden">
           <Image
-            src="/images/owner.jpg"
+            src="https://images.ctfassets.net/ch7ua35viv8m/1q3TenebW9eC26sg9xCOrd/9e4890b09c16f30ec06d0d28ca75290e/owner.jpg"
             width={500}
             height={500}
             alt="Gunnar"
