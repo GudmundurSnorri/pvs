@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "./button/Button";
 
 const HeroSection = () => {
   return (
@@ -25,9 +26,7 @@ const HeroSection = () => {
             smáatriðum og einstaklega falegan metnað
           </p>
           <div className="pt-10">
-            <button className="bg-white text-red-500 py-2 px-6 rounded-lg font-semibold">
-              Hafa samband
-            </button>
+            <Button text={"Hafa samband"} />
           </div>
         </div>
 

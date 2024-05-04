@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="h-full w-full grid grid-cols-6 px-32 py-16 bg-red-600 relative z-10">
+    <div className="h-full w-full grid grid-cols-6 px-32 py-16 bg-red-main relative z-10">
       <div className="relative col-start-1 col-end-4">
         <div className="flex justify-center rounded-3xl  overflow-hidden">
           <Image
