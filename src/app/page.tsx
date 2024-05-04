@@ -1,3 +1,5 @@
+import AboutUs from "@/components/about-us/AboutUs";
+import Footer from "@/components/footer/Footer";
 import HeroSection from "@/components/header";
 import Navigation from "@/components/navigation/Navigation";
 import { ProductList } from "@/components/products/productList";
@@ -10,6 +12,8 @@ export default function Home() {
       <Navigation />
       <HeroSection />
       <ProductList />
+      <AboutUs />
+      <Footer />
     </main>
   );
 }
