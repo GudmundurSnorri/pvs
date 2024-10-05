@@ -1,8 +1,9 @@
 "use client";
 import { useForm, Controller } from "react-hook-form";
 import Button from "../button/Button";
+import { sendMail } from "@/app/actions";
 
-type FormValues = {
+export type FormValues = {
   name: string;
   phoneNumber: string;
   email: string;
@@ -22,8 +23,11 @@ const Form = () => {
     mode: "onChange",
   });
 
-  const onSubmit = () => {
-    console.log(getValues());
+  const onSubmit = async () => {
+    const values = getValues();
+    const res = await sendMail({ ...values });
+
+    console.log(res);
   };
 
   return (
